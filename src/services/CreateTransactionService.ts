@@ -9,7 +9,7 @@ import Category from '../models/Category';
 interface TransactionParams {
   title: string;
   value: number;
-  type: 'income' | 'outcome';
+  type: string;
   category: string;
 }
 
